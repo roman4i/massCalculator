@@ -1,16 +1,26 @@
-let calcMass = 0;
+let calcMass;
 let startMass;
 let speed;
+let inpName;
 
 function dataOut(){
-    
+    outBlock.insertAdjacentHTML('beforeend',
+    `<div class="rowRes">
+                <div class="resCell">` + inpName + `</div>
+                <div class="resCell">` + startMass + `</div>
+                <div class="resCell">` + speed + `</div>
+                <div class="resCell">` + calcMass + `</div>
+    </div>`
+    );
 }
 
 function calcIt(){
     startMass = inps.mass.value;
     speed = inps.speed.value;
+    inpName = inps.inpName.value;
     calcMass = formulae(startMass, speed);
     console.log(calcMass);
+    dataOut();
 }
 
 function formulae(mass, spd){
