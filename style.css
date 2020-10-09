@@ -1,0 +1,48 @@
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2%;
+}
+
+.inputBlock{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mpInp{
+    display: flex;
+}
+
+.inpCell{
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.clcBtn{
+    width: 100%;
+}
+
+.inpStyle{
+    width: 100%;
+}
+
+.staticCell{
+    background-color: gray;
+}
+
+.resBlock{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.rowRes{
+    display: flex;
+    text-align: center;
+}
+
+.resCell{
+    width: 25%;
+    border: 1px solid black;
+}

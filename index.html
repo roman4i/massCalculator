@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Speed mass calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="calculating.js"></script>
+
+        <div class="header">
+            Calculate mass of object with speed !!!
+        </div>
+
+        <div class="inputBlock">
+            <form id="inps">
+                <div class="mpInp">
+                    <div class="inpCell staticCell">Name</div>
+                    <div class="inpCell"><input type="text" name="inpName" class="inpStyle" placeholder="Write some name..."></div>
+                </div>
+                <div class="mpInp">
+                    <div class="inpCell staticCell">Mass</div><div class="inpCell"><input type="text" name="mass" class="inpStyle" placeholder="Mass of object"></div>
+                </div>
+                <div class="mpInp">
+                    <div class="inpCell staticCell">Speed</div><div class="inpCell"><input type="text" name="speed" class="inpStyle" placeholder="Speed of object"></div>
+                </div>
+            </form>
+        </div>
+
+        <div><button class="clcBtn" onclick="calcIt()">Calculate</button></div>
+
+        <div id="outBlock" class="resBlock">
+            <div class="rowRes">
+                <div class="staticCell resCell">Name</div>
+                <div class="staticCell resCell">Mass</div>
+                <div class="staticCell resCell">Speed</div>
+                <div class="staticCell resCell">Result mass</div>
+            </div>
+        </div>
+    </body>
+    </body>
+</html>
