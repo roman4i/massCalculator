@@ -6,15 +6,6 @@ let counter = 0;
 let divs = [];
 
 function dataOut(){
-    /*outBlock.insertAdjacentHTML('beforeend',
-    `<div class="rowRes">
-                <div class="resCell">` + inpName + `</div>
-                <div class="resCell">` + startMass + `</div>
-                <div class="resCell">` + speed + `</div>
-                <div class="resCell">` + calcMass + `</div>
-    </div>`
-    );
-    */
    let resArray = [inpName, startMass, speed, calcMass]
    let tableLine = document.createElement("div");
    tableLine.className = "rowRes";
